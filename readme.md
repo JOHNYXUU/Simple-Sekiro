@@ -40,12 +40,28 @@ State enum for every state that my player would be in
 
 #### Logic
 
-maintain player's logic state in every frame
+**maintain player's logic state in every frame with four hierarchy state together**
 
-Arm : try
+**Arm** :  decide weapon pose 
 
-Attack : 
+**Attack** : decide attack mode now 
 
-Move :
+**Move** : decide player's movement
 
-Pose :
+**Pose** : decide player's lower body
+
+(note :  these four hierarchy state are controlled by **LogicStateMachine which is a parallel state actually** )
+
+![](G:\unityProjects\Simple Soul Like\pictures\Logic State Machine.png)
+
+#### Anim
+
+**maintain player's animation state, make sure that player's animator controller can switch from one state to another.**
+
+every anim state below has a c# script to change the **parameters** in animator controller,so that player can switch between different animation clips. 
+
+![](G:\unityProjects\Simple Soul Like\pictures\Anim State Machine.png)
+
+each c# script actually **represent one animator state** in controller(in Assets/Resources/Animators/) below
+
+![](G:\unityProjects\Simple Soul Like\pictures\QQ截图20221020154402.png)

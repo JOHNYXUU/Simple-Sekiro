@@ -1,0 +1,4 @@
+repository "Simple Sekiro@wechat_os_qy04kdckxi6vpjzeg-geler0u@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"

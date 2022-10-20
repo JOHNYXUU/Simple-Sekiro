@@ -1,0 +1,12 @@
+Begin Object Class=/Script/Engine.AnimMontage Name="GhostSamurai_APose_Attack03_5_Inplace_ALL_Montage"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   CompositeSections(0)=(SectionName="Default",LinkedMontage=AnimMontage'"GhostSamurai_APose_Attack03_5_Inplace_ALL_Montage"',SegmentIndex=0,SegmentLength=1.933000,LinkedSequence=AnimSequence'"/Game/GhostSamurai_katana/GhostSamurai_katana/Animation/Apose/Attack/Inplace/GhostSamurai_APose_Attack03_4_ALL_Inplace.GhostSamurai_APose_Attack03_4_ALL_Inplace"')
+   SlotAnimTracks(0)=(AnimTrack=(AnimSegments=((AnimReference=AnimSequence'"/Game/GhostSamurai_katana/GhostSamurai_katana/Animation/Apose/Attack/Inplace/GhostSamurai_APose_Attack03_4_ALL_Inplace.GhostSamurai_APose_Attack03_4_ALL_Inplace"',AnimEndTime=1.933000),(AnimReference=AnimSequence'"/Game/GhostSamurai_katana/GhostSamurai_katana/Animation/Apose/Attack/Inplace/GhostSamurai_APose_Attack03_5_Inplace.GhostSamurai_APose_Attack03_5_Inplace"',StartPos=1.933000,AnimEndTime=2.766667))))
+   SequenceLength=4.699667
+   AnimNotifyTracks(0)=(TrackName="1",TrackColor=(R=0.500000,G=0.500000,B=0.500000,A=1.000000))
+   Skeleton=Skeleton'"/Game/GhostSamurai_katana/GhostSamurai_katana/Character/Mesh/UE4_GhostSamurai_katana_Skeleton.UE4_GhostSamurai_katana_Skeleton"'
+   ThumbnailInfo=SceneThumbnailInfo'"SceneThumbnailInfo_0"'
+End Object

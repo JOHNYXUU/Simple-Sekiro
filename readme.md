@@ -22,7 +22,7 @@ in directory : [3c system](https://github.com/JOHNYXUU/Simple-Sekiro/tree/main/A
 
 ![](https://raw.githubusercontent.com/JOHNYXUU/Simple-Sekiro/main/pictures/QQ%E6%88%AA%E5%9B%BE20221020111157.png)
 
-construct with **State Machine **
+construct with **State Machine**
 
 note : this part **only for** **logic computing**, contains **no** data for player. 
 

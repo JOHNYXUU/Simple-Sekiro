@@ -80,7 +80,7 @@ manage game object in scene , mainly for how these game objects update in every 
 
 **Particle** :  manage particle system base on object pool
 
-![](G:\unityProjects\Simple Soul Like\pictures\QQ录屏20221020160654202210201615561.gif)
+![](https://raw.githubusercontent.com/JOHNYXUU/Simple-Sekiro/main/pictures/QQ%E5%BD%95%E5%B1%8F20221020160654202210201615561.gif)
 
 **Player** : 3c system and Camera update here
 

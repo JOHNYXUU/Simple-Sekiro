@@ -49,5 +49,3 @@ Attack :
 Move :
 
 Pose :
-
-1111

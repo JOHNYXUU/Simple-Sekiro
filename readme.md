@@ -2,7 +2,7 @@
 
 This is a action game demo using unity for self practising, mostly for **programming**
 
-![](\pictures\QQ截图20221020110309.png)
+![](https://raw.githubusercontent.com/JOHNYXUU/Simple-Sekiro/main/pictures/QQ%E6%88%AA%E5%9B%BE20221020110309.png)
 
 
 
@@ -20,7 +20,7 @@ in directory : [Game Loop](https://github.com/JOHNYXUU/Simple-Sekiro/tree/main/A
 
 in directory : [3c system](https://github.com/JOHNYXUU/Simple-Sekiro/tree/main/Assets/Scripts/StateMachine)
 
-![](\pictures\QQ截图20221020111157.png)
+![](https://raw.githubusercontent.com/JOHNYXUU/Simple-Sekiro/main/pictures/QQ%E6%88%AA%E5%9B%BE20221020111157.png)
 
 construct with **State Machine **
 

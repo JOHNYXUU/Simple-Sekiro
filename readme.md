@@ -82,13 +82,13 @@ two types of movement are accomplished in this game
 
 when player doesn't lock his view on an enemy, he would move in one direction only
 
-![](G:\unityProjects\Simple Soul Like\pictures\QQ截图20221020170300.png)
+![](https://raw.githubusercontent.com/JOHNYXUU/Simple-Sekiro/main/pictures/QQ%E6%88%AA%E5%9B%BE20221020170300.png)
 
 ##### **8Dir move** 
 
 when player lock his view on an enemy,he would move in 8 directions, accomplished with **2d blend** Tree in unity
 
-![](G:\unityProjects\Simple Soul Like\pictures\QQ截图20221020170611.png)
+![](https://raw.githubusercontent.com/JOHNYXUU/Simple-Sekiro/main/pictures/QQ%E6%88%AA%E5%9B%BE20221020170611.png)
 
 ##### other state...
 
@@ -104,11 +104,11 @@ In free state, Camera's position and rotation depends on how mouse move
 
 
 
-![](G:\unityProjects\Simple Soul Like\pictures\free202210201641252.gif)
+![](https://raw.githubusercontent.com/JOHNYXUU/Simple-Sekiro/main/pictures/free202210201641252.gif)
 
 In locked state, Camera will always look at the locked enemy and move with player instead of  depending on mouse
 
-![](G:\unityProjects\Simple Soul Like\pictures\lock202210201642183.gif)
+![](https://raw.githubusercontent.com/JOHNYXUU/Simple-Sekiro/main/pictures/lock202210201642183.gif)
 
 ### Simple GO manager system
 

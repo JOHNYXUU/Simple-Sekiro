@@ -12,13 +12,13 @@ This is a action game demo using unity for self practising, mostly for **program
 
 in directory : [Game Loop](https://github.com/JOHNYXUU/Simple-Sekiro/tree/main/Assets/Scripts/Main)
 
-**GameConfig.cs** : storing data like: **numerical data**(such as speed) ; **path of resource**
+**GameConfig.cs** : store data like: **numerical data**(such as speed) ; **path of resource**
 
 **GameLoop.cs** : Control the whole game. Update every frame
 
-### Simple 3c system based on state machine
+### Simple character controller system based on state machine
 
-in directory : [3c system](https://github.com/JOHNYXUU/Simple-Sekiro/tree/main/Assets/Scripts/StateMachine)
+in directory : [state machine](https://github.com/JOHNYXUU/Simple-Sekiro/tree/main/Assets/Scripts/StateMachine)
 
 ![](https://raw.githubusercontent.com/JOHNYXUU/Simple-Sekiro/main/pictures/QQ%E6%88%AA%E5%9B%BE20221020111157.png)
 
@@ -62,9 +62,53 @@ every anim state below has a c# script to change the **parameters** in animator 
 
 ![](https://raw.githubusercontent.com/JOHNYXUU/Simple-Sekiro/main/pictures/Anim%20State%20Machine.png)
 
-each c# script actually **represent one animator state** in controller(in Assets/Resources/Animators/) below
+### Animator Controller
+
+In Directory : [Animator Controller](https://github.com/JOHNYXUU/Simple-Sekiro/blob/main/Assets/Scripts/Controllers/AnimatorController.cs)
+
+each c# script in animStateMachine actually **represent one animator state** in animator(in Assets/Resources/Animators/) below
 
 ![](https://raw.githubusercontent.com/JOHNYXUU/Simple-Sekiro/main/pictures/QQ%E6%88%AA%E5%9B%BE20221020154402.png)
+
+#### script 
+
+AnimatorController.cs can change the parameter in animator
+
+#### animator
+
+two types of movement are accomplished in this game
+
+##### **1Dir move**
+
+when player doesn't lock his view on an enemy, he would move in one direction only
+
+![](G:\unityProjects\Simple Soul Like\pictures\QQ截图20221020170300.png)
+
+##### **8Dir move** 
+
+when player lock his view on an enemy,he would move in 8 directions, accomplished with **2d blend** Tree in unity
+
+![](G:\unityProjects\Simple Soul Like\pictures\QQ截图20221020170611.png)
+
+##### other state...
+
+just some simple states, nothing special to talk about
+
+### Camera Controller
+
+In directory : [camera](https://github.com/JOHNYXUU/Simple-Sekiro/blob/main/Assets/Scripts/Controllers/CameraController.cs)
+
+In this game ,  camera has two states : **free** and **locked**
+
+In free state, Camera's position and rotation depends on how mouse move
+
+
+
+![](G:\unityProjects\Simple Soul Like\pictures\free202210201641252.gif)
+
+In locked state, Camera will always look at the locked enemy and move with player instead of  depending on mouse
+
+![](G:\unityProjects\Simple Soul Like\pictures\lock202210201642183.gif)
 
 ### Simple GO manager system
 
@@ -85,3 +129,14 @@ manage game object in scene , mainly for how these game objects update in every 
 **Player** : 3c system and Camera update here
 
 **UI** ：ui update here
+
+### Entity
+
+in directory : [entity](https://github.com/JOHNYXUU/Simple-Sekiro/tree/main/Assets/Scripts/Entity)
+
+data for player and enemy (for now) stores in entity
+
+**PlayerEntity** :  player's data,like hp,speed,state......
+
+**EnemyEntity** :  enemy's data,like hp,id......
+

@@ -42,7 +42,7 @@ State enum for every state that my player would be in
 
 maintain player's logic state in every frame
 
-Arm : 
+Arm : try
 
 Attack : 
 

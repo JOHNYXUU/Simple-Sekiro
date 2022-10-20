@@ -52,7 +52,7 @@ State enum for every state that my player would be in
 
 (note :  these four hierarchy state are controlled by **LogicStateMachine which is a parallel state actually** )
 
-![](G:\unityProjects\Simple Soul Like\pictures\Logic State Machine.png)
+![](https://raw.githubusercontent.com/JOHNYXUU/Simple-Sekiro/main/pictures/Logic%20State%20Machine.png)
 
 #### Anim
 
@@ -60,8 +60,8 @@ State enum for every state that my player would be in
 
 every anim state below has a c# script to change the **parameters** in animator controller,so that player can switch between different animation clips. 
 
-![](G:\unityProjects\Simple Soul Like\pictures\Anim State Machine.png)
+![](https://raw.githubusercontent.com/JOHNYXUU/Simple-Sekiro/main/pictures/Anim%20State%20Machine.png)
 
 each c# script actually **represent one animator state** in controller(in Assets/Resources/Animators/) below
 
-![](G:\unityProjects\Simple Soul Like\pictures\QQ截图20221020154402.png)
+![](https://raw.githubusercontent.com/JOHNYXUU/Simple-Sekiro/main/pictures/QQ%E6%88%AA%E5%9B%BE20221020154402.png)

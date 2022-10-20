@@ -65,3 +65,23 @@ every anim state below has a c# script to change the **parameters** in animator 
 each c# script actually **represent one animator state** in controller(in Assets/Resources/Animators/) below
 
 ![](https://raw.githubusercontent.com/JOHNYXUU/Simple-Sekiro/main/pictures/QQ%E6%88%AA%E5%9B%BE20221020154402.png)
+
+### Simple GO manager system
+
+in directory : [Go manager](https://github.com/JOHNYXUU/Simple-Sekiro/tree/main/Assets/Scripts/Manager)
+
+manage game object in scene , mainly for how these game objects update in every frame
+
+**Audio** : control audio to play,pause...
+
+**Enemy** : update enemy's position 
+
+**Input** : record player's input from keyboard and mouse only
+
+**Particle** :  manage particle system base on object pool
+
+![](G:\unityProjects\Simple Soul Like\pictures\QQ录屏20221020160654202210201615561.gif)
+
+**Player** : 3c system and Camera update here
+
+**UI** ：ui update here

@@ -140,3 +140,10 @@ data for player and enemy (for now) stores in entity
 
 **EnemyEntity** :  enemy's data,like hp,id......
 
+## What to be done next ? 
+
+Enemy AI,
+
+other anim state like being attacked, special attack in sekiro,
+
+stamina system in sekiro
